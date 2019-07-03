@@ -1,81 +1,81 @@
-(1)°áÁ¦Å×ÀÌºí,¹è¼ÛÁöÅ×ÀÌºí,±¸¸ÅÈÄ±âÅ×ÀÌºí,»óÇ°¹®ÀÇÅ×ÀÌºí,±¸¸ÅÅ×ÀÌºí
+(1)ê²°ì œí…Œì´ë¸”,ë°°ì†¡ì§€í…Œì´ë¸”,êµ¬ë§¤í›„ê¸°í…Œì´ë¸”,ìƒí’ˆë¬¸ì˜í…Œì´ë¸”,êµ¬ë§¤í…Œì´ë¸”
 
 1.buy table
-buy_no		±¸¸Å¹øÈ£
-product_no	»óÇ°¹øÈ£
-delivery_no	¹è¼Û¹øÈ£
-member_id	È¸¿ø¾ÆÀÌµğ
-buy_date	±¸¸ÅÀÏÀÚ
-buy_count	±¸¸Å¼ö·®
-buy_sum		±¸¸ÅÃÑ±İ¾×
-buy_status	±¸¸Å»óÅÂ
-coupon_no	ÄíÆù¹øÈ£
+buy_no		êµ¬ë§¤ë²ˆí˜¸
+product_no	ìƒí’ˆë²ˆí˜¸
+delivery_no	ë°°ì†¡ë²ˆí˜¸
+member_id	íšŒì›ì•„ì´ë””
+buy_date	êµ¬ë§¤ì¼ì
+buy_count	êµ¬ë§¤ìˆ˜ëŸ‰
+buy_sum		êµ¬ë§¤ì´ê¸ˆì•¡
+buy_status	êµ¬ë§¤ìƒíƒœ
+coupon_no	ì¿ í°ë²ˆí˜¸
 
 2.payment table
-payment_no	°áÁ¦¹øÈ£
-buy_no		±¸¸Å¹øÈ£
-payment_sum	°áÁ¦±İ¾×
-payment_option	°áÁ¦¹æ¹ı
-payment_date	°áÁ¦ÀÏÀÚ
-payment_status	°áÁ¦»óÅÂ
+payment_no	ê²°ì œë²ˆí˜¸
+buy_no		êµ¬ë§¤ë²ˆí˜¸
+payment_sum	ê²°ì œê¸ˆì•¡
+payment_option	ê²°ì œë°©ë²•
+payment_date	ê²°ì œì¼ì
+payment_status	ê²°ì œìƒíƒœ
 
 3.delivery table
-delivery_no	¹è¼Û¹øÈ£
-delivery_sum	¹è¼Û±İ¾×
-delivery_date	¹è¼ÛÀÏÀÚ
+delivery_no	ë°°ì†¡ë²ˆí˜¸
+delivery_sum	ë°°ì†¡ê¸ˆì•¡
+delivery_date	ë°°ì†¡ì¼ì
 
 4.but_review table
-but_review_no		ÈÄ±â¹øÈ£
-but_review_answerchk	»óÇ°¹øÈ£
-member_id		È¸¿ø¾ÆÀÌµğ
-but_review_content	ÈÄ±â³»¿ë
-but_review_writedate	ÈÄ±âµî·ÏÀÏÀÚ
+but_review_no		í›„ê¸°ë²ˆí˜¸
+but_review_answerchk	ìƒí’ˆë²ˆí˜¸
+member_id		íšŒì›ì•„ì´ë””
+but_review_content	í›„ê¸°ë‚´ìš©
+but_review_writedate	í›„ê¸°ë“±ë¡ì¼ì
 
 5.product_q
-product_q_no		»óÇ°¹®ÀÇ¹øÈ£
-product_q_answeryn	»óÇ°¹®ÀÇ´äº¯¿©ºÎ
-product_q_type		»óÇ°¹®ÀÇ±¸ºĞ
-product_q_content	»óÇ°¹®ÀÇ³»¿ë
-member_id		È¸¿ø¾ÆÀÌµğ
-product_q_writedate	»óÇ°¹®ÀÇµî·ÏÀÏÀÚ
+product_q_no		ìƒí’ˆë¬¸ì˜ë²ˆí˜¸
+product_q_answeryn	ìƒí’ˆë¬¸ì˜ë‹µë³€ì—¬ë¶€
+product_q_type		ìƒí’ˆë¬¸ì˜êµ¬ë¶„
+product_q_content	ìƒí’ˆë¬¸ì˜ë‚´ìš©
+member_id		íšŒì›ì•„ì´ë””
+product_q_writedate	ìƒí’ˆë¬¸ì˜ë“±ë¡ì¼ì
 
 6.coupon table
-coupon_no	ÄíÆù¹øÈ£
-coupon_name	ÄíÆùÀÌ¸§
-coupon_discount	ÄíÆùÇÒÀÎÀ²
-coupon_regidate	µî·Ï³¯Â¥
-coupon_validity À¯È¿±â°£
-coupon_image	ÀÌ¹ÌÁö
+coupon_no	ì¿ í°ë²ˆí˜¸
+coupon_name	ì¿ í°ì´ë¦„
+coupon_discount	ì¿ í°í• ì¸ìœ¨
+coupon_regidate	ë“±ë¡ë‚ ì§œ
+coupon_validity ìœ íš¨ê¸°ê°„
+coupon_image	ì´ë¯¸ì§€
 
-(2)Q&AÅ×ÀÌºí,°øÁö»çÇ×Å×ÀÌºí,°Ô½ÃÆÇÅ×ÀÌºí,Àç°íÅ×ÀÌºí,È¸¿øÅ×ÀÌºí
+(2)Q&Aí…Œì´ë¸”,ê³µì§€ì‚¬í•­í…Œì´ë¸”,ê²Œì‹œíŒí…Œì´ë¸”,ì¬ê³ í…Œì´ë¸”,íšŒì›í…Œì´ë¸”
 
-Q&AÅ×ÀÌºí  
-Inquiry_no		Q&A¹øÈ£
-Inquiry_title		Q&AÁ¦¸ñ
-Inquiry_content		Q&A³»¿ë
-Inquiry_answer		Q&A´äº¯
-Inquiry_writedate	Q&AÀÛ¼ºÀÏ
+Q&Aí…Œì´ë¸”  
+Inquiry_no		Q&Aë²ˆí˜¸
+Inquiry_title		Q&Aì œëª©
+Inquiry_content		Q&Aë‚´ìš©
+Inquiry_answer		Q&Aë‹µë³€
+Inquiry_writedate	Q&Aì‘ì„±ì¼
 
-°øÁö»çÇ× Å×ÀÌºí
-notice_no		°øÁö»çÇ×¹øÈ£
-notice_title		°øÁö»çÇ×Á¦¸ñ
-notice_content		°øÁö»çÇ×³»¿ë
-notice_writedate	°øÁö»çÇ×ÀÛ¼ºÀÏ
+ê³µì§€ì‚¬í•­ í…Œì´ë¸”
+notice_no		ê³µì§€ì‚¬í•­ë²ˆí˜¸
+notice_title		ê³µì§€ì‚¬í•­ì œëª©
+notice_content		ê³µì§€ì‚¬í•­ë‚´ìš©
+notice_writedate	ê³µì§€ì‚¬í•­ì‘ì„±ì¼
 
-°Ô½ÃÆÇ Å×ÀÌºí
-board_no	¹øÈ£
-board_title	Á¦¸ñ
-board_content	³»¿ë
-board_image	ÀÌ¹ÌÁö
-board_writedate	ÀÛ¼ºÀÏ
+ê²Œì‹œíŒ í…Œì´ë¸”
+board_no	ë²ˆí˜¸
+board_title	ì œëª©
+board_content	ë‚´ìš©
+board_image	ì´ë¯¸ì§€
+board_writedate	ì‘ì„±ì¼
 
-Àç°íÅ×ÀÌºí
-product_no	Á¦Ç°¹øÈ£
-product_name	Á¦Ç°¸í
-product_price	Á¦Ç°°¡°İ
-product_image	Á¦Ç°ÀÌ¹ÌÁö
-product_content	Á¦Ç°³»¿ë
-product_brand	Á¦Ç°ºê·£µå
+ì¬ê³ í…Œì´ë¸”
+product_no	ì œí’ˆë²ˆí˜¸
+product_name	ì œí’ˆëª…
+product_price	ì œí’ˆê°€ê²©
+product_image	ì œí’ˆì´ë¯¸ì§€
+product_content	ì œí’ˆë‚´ìš©
+product_brand	ì œí’ˆë¸Œëœë“œ
 product_top	
 product_pants	
 product_shoes	
@@ -83,84 +83,84 @@ product_medium
 product_small	
 
 
-È¸¿øÅ×ÀÌºí 
-member_no	È¸¿ø¹øÈ£
-member_id	È¸¿ø¾ÆÀÌµğ
-member_pwd	È¸¿øºñ¹Ğ¹øÈ£
-member_name	È¸¿øÀÌ¸§
-member_gender	È¸¿ø¼ºº°
-member_date	°¡ÀÔÀÏ
-member_address	È¸¿øÁÖ¼Ò
-member_rating	È¸¿øºñÀ²
-member_email	È¸¿øÀÌ¸ŞÀÏ
-member_phonenumber	ÈŞ´ë¹øÈ£
+íšŒì›í…Œì´ë¸” 
+member_no	íšŒì›ë²ˆí˜¸
+member_id	íšŒì›ì•„ì´ë””
+member_pwd	íšŒì›ë¹„ë°€ë²ˆí˜¸
+member_name	íšŒì›ì´ë¦„
+member_gender	íšŒì›ì„±ë³„
+member_date	ê°€ì…ì¼
+member_address	íšŒì›ì£¼ì†Œ
+member_rating	íšŒì›
+member_email	íšŒì›ì´ë©”ì¼
+member_phonenumber	íœ´ëŒ€ë²ˆí˜¸
 
-(3)ºñÈ¸¿øÅ×ÀÌºí,ÂÊÁöÇÔÅ×ÀÌºí,ÀÔÁ¡¹®ÀÇÅ×ÀÌºí,ÀÔÁ¡Å×ÀÌºí,FAQÅ×ÀÌºí
+(3)ë¹„íšŒì›í…Œì´ë¸”,ìª½ì§€í•¨í…Œì´ë¸”,ì…ì ë¬¸ì˜í…Œì´ë¸”,ì…ì í…Œì´ë¸”,FAQí…Œì´ë¸”
 
 1. non_mem table
-non_mem_name	ºñÈ¸¿øÀÌ¸§
-non_mem_tel	ºñÈ¸¿øÀüÈ­¹øÈ£
-buy_no		ºñÈ¸¿øÁÖ¹®¹øÈ£
+non_mem_name	ë¹„íšŒì›ì´ë¦„
+non_mem_tel	ë¹„íšŒì›ì „í™”ë²ˆí˜¸
+buy_no		ë¹„íšŒì›ì£¼ë¬¸ë²ˆí˜¸
 
 2. message table
-message_content	³»¿ë
-member_id	È¸¿ø¾ÆÀÌµğ
-message_time	½Ã°£
+message_content	ë‚´ìš©
+member_id	íšŒì›ì•„ì´ë””
+message_time	ì‹œê°„
 
 3. im_qna table
-im_qna_com	¾÷Ã¼¸í
-prd_brand	ºê·£µå
-member_person	´ã´çÀÚ
-im_qna_email	ÀÌ¸ŞÀÏ
-im_qna_comadd	¾÷Ã¼ÁÖ¼Ò
-member_tel	ÀüÈ­¹øÈ£
-im_qna_content	¹®ÀÇ³»¿ë
+im_qna_com	ì—…ì²´ëª…
+prd_brand	ë¸Œëœë“œ
+member_person	ë‹´ë‹¹ì
+im_qna_email	ì´ë©”ì¼
+im_qna_comadd	ì—…ì²´ì£¼ì†Œ
+member_tel	ì „í™”ë²ˆí˜¸
+im_qna_content	ë¬¸ì˜ë‚´ìš©
 
 4. in table
-prd_brand	ºê·£µå
-member_person	´ã´çÀÚ
-member_tel	ÀüÈ­¹øÈ£
-member-address	ÁÖ¼Ò
+prd_brand	ë¸Œëœë“œ
+member_person	ë‹´ë‹¹ì
+member_tel	ì „í™”ë²ˆí˜¸
+member-address	ì£¼ì†Œ
 
 5. faq table
-faq_no		fqa¹øÈ£
-faq_content	³»¿ë
-faq_answer	´äº¯
-faq_type	Áú¹®À¯Çü
+faq_no		fqaë²ˆí˜¸
+faq_content	ë‚´ìš©
+faq_answer	ë‹µë³€
+faq_type	ì§ˆë¬¸ìœ í˜•
 
 
-(4)ÁßºĞ·ùÅ×ÀÌºí,¼ÒºĞ·ùÅ×ÀÌºí,Àå¹Ù±¸´ÏÅ×ÀÌºí,ÀÌº¥Æ®Å×ÀÌºí,°Ô½ÃÆÇµî·ÏÅ×ÀÌºí,»çÀÌÁîÅ×ÀÌºí
+(4)ì¤‘ë¶„ë¥˜í…Œì´ë¸”,ì†Œë¶„ë¥˜í…Œì´ë¸”,ì¥ë°”êµ¬ë‹ˆí…Œì´ë¸”,ì´ë²¤íŠ¸í…Œì´ë¸”,ê²Œì‹œíŒë“±ë¡í…Œì´ë¸”,ì‚¬ì´ì¦ˆí…Œì´ë¸”
 
-ÁßºĞ·ùÅ×ÀÌºí
-Medium_no	¼ø¹ø		Int		Not	
-Medium_name	ºĞ·ùÀÌ¸§	Varchar(30)	Not	
+ì¤‘ë¶„ë¥˜í…Œì´ë¸”
+Medium_no	ìˆœë²ˆ		Int		Not	
+Medium_name	ë¶„ë¥˜ì´ë¦„	Varchar(30)	Not	
 
-¼ÒºĞ·ùÅ×ÀÌºí
-Small_no	¼ÒºĞ·ù¹øÈ£	Int		Not	
-Medium_no	ÁßºĞ·ù¹øÈ£	Int		Not	
-Small_name	¼ÒºĞ·ùÀÌ¸§	Varchar(30)	Not	
+ì†Œë¶„ë¥˜í…Œì´ë¸”
+Small_no	ì†Œë¶„ë¥˜ë²ˆí˜¸	Int		Not	
+Medium_no	ì¤‘ë¶„ë¥˜ë²ˆí˜¸	Int		Not	
+Small_name	ì†Œë¶„ë¥˜ì´ë¦„	Varchar(30)	Not	
 
-Àå¹Ù±¸´ÏÅ×ÀÌºí
-Basket_no	Àå¹Ù±¸´Ï¹øÈ£	Int		Not
-Product_	Á¦Ç°¸í
-		Á¦Ç°°¡°İ
-		»çÀÌÁî
-		¼ö·®
+ì¥ë°”êµ¬ë‹ˆí…Œì´ë¸”
+Basket_no	ì¥ë°”êµ¬ë‹ˆë²ˆí˜¸	Int		Not
+Product_	ì œí’ˆëª…
+		ì œí’ˆê°€ê²©
+		ì‚¬ì´ì¦ˆ
+		ìˆ˜ëŸ‰
 
-ÀÌº¥Æ®Å×ÀÌºí
-Event_no	ÀÌº¥Æ® ¹øÈ£	Int		Not
-Event_title	ÀÌº¥Æ®¸í	Varchar(60)	Not
-Event_date	ÇÒÀÎ±â°£	Varchar(20)	Not
-Event_image	ÀÌ¹ÌÁö		Varchar(40)	
-Evet_content	³»¿ë		Varchar(3000)	
+ì´ë²¤íŠ¸í…Œì´ë¸”
+Event_no	ì´ë²¤íŠ¸ ë²ˆí˜¸	Int		Not
+Event_title	ì´ë²¤íŠ¸ëª…	Varchar(60)	Not
+Event_date	í• ì¸ê¸°ê°„	Varchar(20)	Not
+Event_image	ì´ë¯¸ì§€		Varchar(40)	
+Evet_content	ë‚´ìš©		Varchar(3000)	
 
-°Ô½ÃÆÇµî·ÏÅ×ÀÌºí
-Board_no	°Ô½ÃÆÇ ¹øÈ£	Int		Not
-Board_name	°Ô½ÃÆÇ ÀÌ¸§	Varchar(30)	Not
-Board_group	±×·ì¸í		Varchar(30)	Not
-Board_table	DBÅ×ÀÌºí¸í	Varchar(20)	Not
+ê²Œì‹œíŒë“±ë¡í…Œì´ë¸”
+Board_no	ê²Œì‹œíŒ ë²ˆí˜¸	Int		Not
+Board_name	ê²Œì‹œíŒ ì´ë¦„	Varchar(30)	Not
+Board_group	ê·¸ë£¹ëª…		Varchar(30)	Not
+Board_table	DBí…Œì´ë¸”ëª…	Varchar(20)	Not
 
-»çÀÌÁîÅ×ÀÌºí
-Size_no		»çÀÌÁî¹øÈ£	Int		Not
-Medium_no	ÁßºĞ·ù¹øÈ£	Int		Not
-Size_size	»çÀÌÁî		Varchar(10)	Not
+ì‚¬ì´ì¦ˆí…Œì´ë¸”
+Size_no		ì‚¬ì´ì¦ˆë²ˆí˜¸	Int		Not
+Medium_no	ì¤‘ë¶„ë¥˜ë²ˆí˜¸	Int		Not
+Size_size	ì‚¬ì´ì¦ˆ		Varchar(10)	Not
