@@ -1,0 +1,166 @@
+(1)결제테이블,배송지테이블,구매후기테이블,상품문의테이블,구매테이블
+
+1.buy table
+buy_no		구매번호
+product_no	상품번호
+delivery_no	배송번호
+member_id	회원아이디
+buy_date	구매일자
+buy_count	구매수량
+buy_sum		구매총금액
+buy_status	구매상태
+coupon_no	쿠폰번호
+
+2.payment table
+payment_no	결제번호
+buy_no		구매번호
+payment_sum	결제금액
+payment_option	결제방법
+payment_date	결제일자
+payment_status	결제상태
+
+3.delivery table
+delivery_no	배송번호
+delivery_sum	배송금액
+delivery_date	배송일자
+
+4.but_review table
+but_review_no		후기번호
+but_review_answerchk	상품번호
+member_id		회원아이디
+but_review_content	후기내용
+but_review_writedate	후기등록일자
+
+5.product_q
+product_q_no		상품문의번호
+product_q_answeryn	상품문의답변여부
+product_q_type		상품문의구분
+product_q_content	상품문의내용
+member_id		회원아이디
+product_q_writedate	상품문의등록일자
+
+6.coupon table
+coupon_no	쿠폰번호
+coupon_name	쿠폰이름
+coupon_discount	쿠폰할인율
+coupon_regidate	등록날짜
+coupon_validity 유효기간
+coupon_image	이미지
+
+(2)Q&A테이블,공지사항테이블,게시판테이블,재고테이블,회원테이블
+
+Q&A테이블  
+Inquiry_no		Q&A번호
+Inquiry_title		Q&A제목
+Inquiry_content		Q&A내용
+Inquiry_answer		Q&A답변
+Inquiry_writedate	Q&A작성일
+
+공지사항 테이블
+notice_no		공지사항번호
+notice_title		공지사항제목
+notice_content		공지사항내용
+notice_writedate	공지사항작성일
+
+게시판 테이블
+board_no	번호
+board_title	제목
+board_content	내용
+board_image	이미지
+board_writedate	작성일
+
+재고테이블
+product_no	제품번호
+product_name	제품명
+product_price	제품가격
+product_image	제품이미지
+product_content	제품내용
+product_brand	제품브랜드
+product_top	
+product_pants	
+product_shoes	
+product_medium	
+product_small	
+
+
+회원테이블 
+member_no	회원번호
+member_id	회원아이디
+member_pwd	회원비밀번호
+member_name	회원이름
+member_gender	회원성별
+member_date	가입일
+member_address	회원주소
+member_rating	회원비율
+member_email	회원이메일
+member_phonenumber	휴대번호
+
+(3)비회원테이블,쪽지함테이블,입점문의테이블,입점테이블,FAQ테이블
+
+1. non_mem table
+non_mem_name	비회원이름
+non_mem_tel	비회원전화번호
+buy_no		비회원주문번호
+
+2. message table
+message_content	내용
+member_id	회원아이디
+message_time	시간
+
+3. im_qna table
+im_qna_com	업체명
+prd_brand	브랜드
+member_person	담당자
+im_qna_email	이메일
+im_qna_comadd	업체주소
+member_tel	전화번호
+im_qna_content	문의내용
+
+4. in table
+prd_brand	브랜드
+member_person	담당자
+member_tel	전화번호
+member-address	주소
+
+5. faq table
+faq_no		fqa번호
+faq_content	내용
+faq_answer	답변
+faq_type	질문유형
+
+
+(4)중분류테이블,소분류테이블,장바구니테이블,이벤트테이블,게시판등록테이블,사이즈테이블
+
+중분류테이블
+Medium_no	순번		Int		Not	
+Medium_name	분류이름	Varchar(30)	Not	
+
+소분류테이블
+Small_no	소분류번호	Int		Not	
+Medium_no	중분류번호	Int		Not	
+Small_name	소분류이름	Varchar(30)	Not	
+
+장바구니테이블
+Basket_no	장바구니번호	Int		Not
+Product_	제품명
+		제품가격
+		사이즈
+		수량
+
+이벤트테이블
+Event_no	이벤트 번호	Int		Not
+Event_title	이벤트명	Varchar(60)	Not
+Event_date	할인기간	Varchar(20)	Not
+Event_image	이미지		Varchar(40)	
+Evet_content	내용		Varchar(3000)	
+
+게시판등록테이블
+Board_no	게시판 번호	Int		Not
+Board_name	게시판 이름	Varchar(30)	Not
+Board_group	그룹명		Varchar(30)	Not
+Board_table	DB테이블명	Varchar(20)	Not
+
+사이즈테이블
+Size_no		사이즈번호	Int		Not
+Medium_no	중분류번호	Int		Not
+Size_size	사이즈		Varchar(10)	Not
